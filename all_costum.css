@@ -1,0 +1,523 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+body{
+    cursor: url("/images/svges/cursor.webp"), auto;
+}
+/* theme css */
+.header{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+.theme_padding{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* navbar css */
+.header_navbar{
+    background-color: #000;
+    height: 60px;
+    width: 100%;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+}
+
+.left_nav_items{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu_1 i{
+    font-size: 28px;
+}
+.menu_2{
+    font-size: 22px;
+    gap: 20px;
+}
+
+.center_nav_items{
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.middle_home_bar{
+    background-color: #323131;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+}
+.middle_home_bar:hover{
+    height: 38px;
+    /* width: 38px; */
+}
+.middle_home_bar title{
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+.nav_search_bar input{
+    cursor: pointer;
+    border-radius: 80px;
+    width: 390px;
+    height: 36px;
+    background-color: #323131;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #dedcdc;
+    background-image:url("/images/icons/search_bar.png");
+    background-position: 12px;
+    background-repeat: no-repeat;
+}
+.nav_search_bar input:hover{
+    background-color: #3b3a3a;
+    color: #fff;
+
+}
+
+.nav_search_bar input[placeholder]{
+    padding-left: 40px;
+    font-size: 16px;
+}
+
+.right_nav_items{
+    display: flex;
+    gap: 10px;
+}
+.nav_bell{
+    padding: 12px;
+    gap: 20px;
+}
+
+.primium button{
+    width: 160px;
+    margin: 4px;
+    padding: 8px 5px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+/* part one css / library navbar css */
+
+.part_one{
+    position: fixed;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background-color: #1a1a1a;
+    padding: 20px;
+}
+
+.library_navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+.home_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.library_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.library_text h2{
+    font-family: Arial Black;
+    font-size: 16px;
+    color: #fff;
+}
+
+.library_icons{
+    cursor: pointer;
+    display: flex;
+    gap: 20px !important;
+}
+
+.part_one_btn{
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.playlists{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #2e2e2e;
+    color:#fff;
+    border: 0;
+}
+
+.playlists{
+    width: 90px;
+    height: 30px;
+}
+
+.Artists{
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: #2e2e2e;
+    color:#fff;
+    border: 0;
+}
+
+/* search_part css */
+
+.search_part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* kjfgnkdfjg */
+.player {
+    position: relative;
+    width: 350px;
+    background: #f1f3f4;
+    box-shadow: 0 50px 80px rgba(0, 0, 0, 0.25);
+}
+
+.player .imgbx {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.player .imgbx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.player audio {
+    width: 100%;
+    outline: none;
+}
+
+.recent_part h2{
+    font-family: Arial Black;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.recent_part{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* play list css */
+
+.playlist_list:hover{
+    background-color: #2e2e2e;
+}
+
+.playlist_list{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: left;
+    margin-top: 15px;
+    width: 100%;
+    height: 60px;
+    /* background-color: aqua; */
+}
+
+.playlist_list img{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.singer_name h3{
+    font-family: Arial black;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.singer_name h4{
+    font-family: Arial black;
+    font-size: 12px;
+    color: #ccc9c9;
+}
+
+.playlist_scrollbar{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    /* height: fit-content; */
+    height: 100vh;
+}
+
+/* hero section css */
+
+.hero_section{
+    padding: 15px;
+    position: fixed;
+    right: 0;
+    width: 70%;
+    height: 100vh;
+    background: linear-gradient( rgba(104, 1, 1, 0.826),black,black);
+    overflow: scroll;
+}
+
+.hero_baner{
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+    background: linear-gradient(rgba(104, 1, 1, 0.826),black,black);
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.baner_image img{
+    height: 170px;
+    width: 170px;
+}
+
+.baner_image_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #fff;
+    font-family: Arial black;
+}
+
+.hero_para p{
+    color: #fff;
+}
+
+.hero_title h1{
+    font-size: 42px;
+}
+
+.hero_para h1{
+    font-family:Arial, sans-serif;
+    font-size: 16px;
+}
+
+.container button{
+    border: 2px solid #fff;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+}
+
+.container i{
+    font-size: 18px;
+    /* margin: 8px; */
+}
+
+/* hero_baners_btns css */
+
+.hero_baners_btns{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+    
+.hero_baners_btns button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #343434ac;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero_baners_btns .active {
+    background-color: #ffffff; /* Change this to the color you want when active */
+    color: #000000;
+}
+
+
+/* old song baner part css */
+
+.old_song_part{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.old_baner_1{
+    margin: 5px;
+    height: 60px;
+    width: 24%;
+    background-color: rgba(45, 45, 45, 0.825);
+}
+
+.old_baner_1:hover{
+    background-color: rgba(62, 62, 62, 0.825);
+}
+
+.old_baner_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.img_and_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+}
+
+.img_and_text img{
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+}
+.img_and_text h2{
+    font-family: Arial black;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #f1f3f4;
+}
+
+.hover_btn button{
+    /* visibility: hidden; */
+    height: 30px;
+    width: 30px;
+    background-color: rgb(5, 161, 5);
+    padding: 8px;
+    border-radius: 50px;
+    border: 0;
+    margin-right: 10px;
+}
+
+
+/* mixes section css */
+
+.mixes_title{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.mixes_title h1{
+    cursor: pointer;
+    color: #fff;
+    font-family: Arial black;
+    font-size: 24px;
+}
+
+
+.mixes_title h3{
+    cursor: pointer;
+    color: #6c6c6c;
+    font-family: Arial black;
+    font-size: 14px;
+}
+
+.mixes_title h1:hover,.mixes_title h3:hover{
+    border-bottom: 2px solid;
+}
+
+/* song boxes css */
+
+.song_boxes{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* padding: 10px; */
+    margin-bottom: 10px;
+}
+
+.song_box_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    width: 20%;
+    height: 220px;
+    background-color: #000000;
+    border-radius: 5px;
+    color: #f1f3f4;
+}
+
+.song_box_1:hover{
+    background-color: #252525ac;
+}
+
+.song_box_1 img{
+    border-radius: 5px;
+    margin: auto;
+    max-width: 100%;
+    height: 120px;
+}
+
+.song_box_1 h4{
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.song_box_1 h6{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #919191;
+}
+
+.active{
+    visibility: hidden !important   ;
+    display: none ;
+}
+
+.hero_bbb{
+    width: 100% !important;
+}
+
+.round_song img{
+    border-radius: 100px;
+}

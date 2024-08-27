@@ -1,0 +1,313 @@
+@media (max-width:1216px){
+    .old_baner_1 {
+        width: 32%;
+    }
+
+    .song_box_1 {
+        margin: 5px;
+    }
+
+    .song_boxes{
+        margin-bottom: 40px;
+    }
+
+    #seekBar {
+        width: 70% !important; 
+    }
+   
+}
+
+@media (max-width:1120px){
+
+    .hero_title h1 {
+        font-size: 36px;
+    }   
+}
+
+@media (max-width:1024px){
+    .hero_title h1 {
+        font-size: 33px;
+    }
+
+    #seekBar {
+        width: 59% !important;
+    }
+
+    .old_baner_1 {
+        width: 31%;
+    }
+    .song_box_1 {
+        margin: 0px;
+        padding: 10px;
+    }
+
+}
+
+
+
+@media (max-width:880px){
+
+    .hero_title h1 {
+        font-size: 26px;
+    }   
+
+    .old_baner_1 {
+        width: 46%;
+    }
+
+    .song_box_1 img {
+        height: 95px;
+    }
+
+    .mixes_title h1 {
+        font-size: 22px;
+    }
+
+    .singer_name h3{
+        font-size: 12px;
+    }
+    
+    .playlist_list img {
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn-search{
+        display: none;
+    }
+}
+
+@media (max-width:768px){
+    .nav_search_bar input {
+        width: 280px;
+    }
+
+    .fa-solid, .fas {
+        font-weight: 900;
+    }
+    /* .input-search{
+        visibility: visible !important;
+    } */
+    .part_one{
+        width: 100%;
+        z-index: 33;
+    }
+
+    .hero_section{
+        width: 100%;
+    }
+
+    #seekBar {
+        width: 87% !important;
+    }
+}
+
+
+@media (max-width:567px){
+    .hero_title h1 {
+        font-size: 20px;
+    }
+
+    .hero_para p {
+        font-size: 15px;
+    }
+
+    #seekBar {
+        width: 60% !important;
+    }
+
+    .primium{
+        display: none;
+    }
+
+    .nav_search_bar input{
+        width: 300px;
+    }
+
+    .song_boxes {
+        flex-wrap: wrap;
+    }
+
+    .song_box_1 {
+        width: 28%;
+        margin: 10px;
+    }
+
+    .hero_para h1 {
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width:480px){
+    .hero_para p {
+        font-size: 14px;
+    }
+
+    .hero_title h1 {
+        font-size: 18px;
+    }   
+    .old_baner_1 {
+        width: 100%;
+    }
+
+    .nav_search_bar input {
+        width: 220px;
+    }
+
+    .right_nav_items{
+        display: none;
+    }
+
+    .mixes_title h1 {
+        font-size: 18px;
+    }
+
+    .song_boxes {
+        margin-bottom: 5px;
+    }
+
+    .song_box_1 {
+        width: 43%;
+        margin: 10px;
+    }
+
+    .song_box_1 {
+        height: 235px;
+    }
+
+    .song_box_1 img {
+        height: 140px;
+    }
+
+    .nav_search_bar input[placeholder] {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:420px){
+
+    .hero_baner{
+        flex-direction: column;
+        height: 500px;
+    }
+    .baner_image img {
+         height: 270px; 
+        width: 100%;
+    }
+
+    .hero_title h1 {
+        font-size: 22px;
+    }
+
+    .song_box_1 {
+        width: 42%;
+        margin: 8px;
+    }
+
+    .song_box_1 img {
+        height: 110px;
+    }
+
+    .middle_home_bar {
+        visibility: hidden;
+    }
+
+    .hero_baners_btns {
+        gap: 10px;
+    }
+
+    .header_navbar{
+        border-bottom: 1px solid rgb(56, 56, 55);
+    }
+}
+
+@media (max-width:380px){
+
+    .hero_baner{
+        flex-direction: column;
+        height: 500px;
+    }
+    .baner_image img {
+         height: 270px; 
+        width: 100%;
+    }
+
+    .hero_title h1 {
+        font-size: 22px;
+    }
+
+    .song_box_1 {
+        width: 42%;
+        margin: 8px;
+    }
+
+    .song_box_1 img {
+        height: 110px;
+    }
+
+    .middle_home_bar {
+        visibility: hidden;
+    }
+
+    .hero_baners_btns {
+        gap: 10px;
+    }
+
+    .header_navbar{
+        border-bottom: 1px solid rgb(56, 56, 55);
+    }
+}
+
+@media (max-width:320px){
+    .menu_2{
+        visibility: hidden;
+    }
+
+    .baner_image img {
+        height: 240px;
+        width: 100%;
+    }
+
+    .song_box_1 {
+        width: 90%;
+        margin: 8px;
+        height: 285px;
+    }
+
+    .song_box_1 img {
+        height: 200px;
+    }
+
+    .song_box_1 h4 {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    #seekBar {
+        width: 72% !important;
+    }
+
+    .mixes_title h1 {
+        font-size: 16px;
+    }
+
+    .mixes_title h3 {
+        font-size: 12px;
+    }
+
+    /* .center_nav_items{
+        display: none;
+    } */
+
+    .nav_search_bar input[placeholder] {
+        padding-left: 44px;
+        font-size: 12px;
+        
+    }
+
+    .nav_search_bar input {
+        width: 179px;
+    }
+}

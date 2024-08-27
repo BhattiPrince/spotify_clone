@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="/media/all_costum.css">
+    <link rel="stylesheet" href="/media/all_responsive.css">
+    <link rel="stylesheet" href="/media/all_font.css">
+    <link rel="icon" type="image/x-icon" href="/images/icons/fab_icon.png">
+    <link rel="stylesheet" href="/media/codepen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header class="header_navbar">
+        <div class="navbar">
+            <div class="left_nav_items">
+                <div class="menu_1">
+                    <i class="fa-solid fa-ellipsis" style="color: #ffffffe2;" onclick="remove_bar()"></i>
+                </div>
+                <div class="menu_2">
+                    <i class="fa-solid fa-chevron-left" style="color: #dfdddd78;"></i>
+                    <i class="fa-solid fa-chevron-right" style="color: #dfdddd78;"></i>
+                </div>
+            </div>
+            <div class="center_nav_items">
+                <div class="middle_home_bar" title="Home">
+                    <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                </div>
+                <div class="nav_search_bar">
+                    <input type="text" placeholder="What do you want to play?">
+                </div>
+            </div>
+            <div class="right_nav_items">
+                <div class="primium">
+                    <button>Explore Premium</button>
+                </div>
+                <div class="nav_bell">
+                    <i class="fa-regular fa-bell" style="color: #f0f0f0;"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<section class="main_section">
+
+    <section class="part_one" id="part_one_">
+        <div class="library_navbar">
+            <div class="home_nav">
+                <div class="library_text">
+                    <i class="fa-solid fa-book" style="color: #fcfcfc;"></i>
+                    <h2>Your Library</h2>
+                </div>
+                <div class="library_icons">
+                    <i class="fa-solid fa-plus" style="color: #f7f7f7;"></i>
+                    <i class="fa-solid fa-arrow-right" id="vvv" style="color: #ffffff;" onclick="click_mobile()"></i>
+                </div>
+            </div>
+            <div class="part_one_btn">
+                <button class="playlists">Playlists</button>
+                <button class="Artists">Artists</button>
+            </div>
+            <div class="search_part">
+                <div class="search-box">
+                    <button class="btn-search"><i class="fas fa-search"></i></button>
+                    <input type="text" class="input-search" placeholder="Type to Search...">
+                </div>
+                <div class="recent_part">
+                    <h2>Recents</h2>
+                    <i class="fa-solid fa-bars" style="color: #ededed;"></i>
+                </div>
+
+            </div>
+            <div class="playlist_scrollbar">
+
+                <div class="playlist_list">
+                    <img src="/images/pictues/playlist_1.jpg" alt="">
+                    <div class="singer_name">
+                        <h3>Jignesh Kaviraj</h3>
+                        <h4>Artist</h4>
+                    </div>
+                </div>
+
+                <div class="playlist_list">
+                    <img src="/images/pictues/playlist_2.jpeg" alt="">
+                    <div class="singer_name">
+                        <h3>Arijit singh</h3>
+                        <h4>Artist</h4>
+                    </div>
+                </div>
+
+                <div class="playlist_list">
+                    <img src="/images/pictues/playlist_3.jpeg" alt="">
+                    <div class="singer_name">
+                        <h3>Pritam chakraborty</h3>
+                        <h4>Artist</h4>
+                    </div>
+                </div>
+
+                <div class="playlist_list">
+                    <img src="/images/pictues/playlist_4.jpg" alt="">
+                    <div class="singer_name">
+                        <h3>Neha kakkar</h3>
+                        <h4>Singer</h4>
+                    </div>
+                </div>
+
+                <div class="playlist_list">
+                    <img src="/images/pictues/playlist_5.jpeg" alt="">
+                    <div class="singer_name">
+                        <h3>Sonu nigam</h3>
+                        <h4>Artist</h4>
+                    </div>
+                </div>
+
+                <div class="playlist_list">
+                    <img src="/images/pictues/playlist_6.jpeg" alt="">
+                    <div class="singer_name">
+                        <h3>Lata mangeshkar</h3>
+                        <h4>Playback Singert</h4>
+                    </div>
+                </div>
+
+                <div class="playlist_list">
+                    <img src="/images/pictues/playlist_7.jpeg" alt="">
+                    <div class="singer_name">
+                        <h3>Udit Narayan</h3>
+                        <h4>Singer</h4>
+                    </div>
+                </div>
+
+                <div class="playlist_list">
+                    <img src="/images/pictues/playlist_8.jpeg" alt="">
+                    <div class="singer_name">
+                        <h3>AP Dhillon</h3>
+                        <h4>Canadian rapper and singer</h4>
+                    </div>
+                </div>
+
+                <div class="playlist_list">
+                    <img src="/images/pictues/playlist_9.jpeg" alt="">
+                    <div class="singer_name">
+                        <h3>AR Rahman</h3>
+                        <h4>Canadian rapper and singer</h4>
+                    </div>
+                </div>
+
+                <div class="playlist_list">
+                    <img src="/images/pictues/playlist_1.jpg" alt="">
+                    <div class="singer_name">
+                        <h3>Jignesh Kaviraj</h3>
+                        <h4>Artist</h4>
+                    </div>
+                </div>
+
+                <div class="playlist_list">
+                    <img src="/images/pictues/playlist_1.jpg" alt="">
+                    <div class="singer_name">
+                        <h3>Jignesh Kaviraj</h3>
+                        <h4>Artist</h4>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- valam song section baner -->
+    <section class="hero_section" id="kkk">
+        <!-- valam song -->
+        <div class="hero_baner">
+            <div class="baner_image">
+                <img src="/images/pictues/valam_song_baner.jpg" alt="">
+            </div>
+            <div class="baner_image_text">
+                <div class="hero_para">
+                    <p>Playlist</p>
+                </div>
+                <div class="hero_title">
+                    <h1>HITS BY ARIJIT SINGH</h1>
+                </div>
+                <div class="hero_para">
+                    <h1>Certified SONG right here! Listen now!</h1>
+                </div>
+                <!-- <div class="valam_Song">
+
+                    <audio src="musics/Valam - Made In China 128 Kbps.mp3"></audio>
+                    <div class="container">
+                        
+                        <button onclick="play(this)" class="btn play">
+                            <i class="fa-solid fa-play" style="color: #f1f2f4;"></i>
+                        </button>
+                      
+                    </div>
+
+                </div> -->
+
+                <div class="valam_Song">
+                    <audio id="audioPlayer" src="musics/Valam - Made In China 128 Kbps.mp3"></audio>
+                    <div class="container">
+                        <button onclick="playPause(this)" class="btn play">
+                            <i class="fa-solid fa-play" style="color: #f1f2f4;"></i>
+                        </button>
+                        <input type="range" id="seekBar" value="0" max="100" onchange="seekAudio()" />
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- three button -->
+        <div class="hero_baners_btns">
+            <button id="mm" onclick="changeColor(this)">All</button>
+            <button id="mm" onclick="changeColor(this)">Music</button>
+            <button id="mm" onclick="changeColor(this)">Podcast</button>
+        </div>
+
+        <!-- old songs section -->
+        <div class="old_song_part">
+            <div class="old_baner_1">
+                <div class="img_and_text">
+                    <img src="/images/pictues/old_song1.webp" alt="">
+                    <h2>90s bollywood</h2>
+                </div>
+                <div class="hover_btn">
+                    <button onclick="togglePlayPause(this)">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                </div>
+                <audio id="mahadev_audio" src="/musics/90's_song.mp3"></audio>
+            </div>
+            <div class="old_baner_1">
+                <div class="img_and_text">
+                    <img src="/images/pictues/english_son2.jpeg" alt="">
+                    <h2>HIT SONGS ENGLISH</h2>
+                </div>
+                <div class="hover_btn">
+                    <button onclick="malang(this)">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                </div>
+                <audio id="malang" src="/musics/Malang Sajna_320(PagalWorld.com.pe).mp3"></audio>
+            </div>
+            <div class="old_baner_1">
+                <div class="img_and_text">
+                    <img src="/images/pictues/mahadev_banner.jpeg" alt="">
+                    <h2>Famous Mahadev songs</h2>
+                </div>
+                <div class="hover_btn">
+                    <button onclick="famous(this)">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                </div>
+                <audio id="famous" src="/musics/famous_song.mp3"></audio>
+            </div>
+            <div class="old_baner_1">
+                <div class="img_and_text">
+                    <img src="/images/pictues/lovesong_banner.jpeg" alt="">
+                    <h2>Love songs🥰💖💕</h2>
+                </div>
+                <div class="hover_btn">
+                    <button onclick="love_song(this)">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                </div>
+                <audio id="love_audio" src="/musics/love_song_audio.mp3"></audio>
+            </div>
+            <div class="old_baner_1">
+                <div class="img_and_text">
+                    <img src="/images/pictues/arijit_singh.jpeg" alt="">
+                    <h2>This is Arijit singh</h2>
+                </div>
+                <div class="hover_btn">
+                    <button onclick="arijit_audio(this)">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                </div>
+                <audio id="arijit_audio" src="/musics/arjit_audio.mp3"></audio>
+            </div>
+            <div class="old_baner_1">
+                <div class="img_and_text">
+                    <img src="/images/pictues/valantine_song.jpeg" alt="">
+                    <h2>Trending Valentine's Hits</h2>
+                </div>
+                <div class="hover_btn">
+                    <button onclick="valantine_audio(this)">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                </div>
+                <audio id="valantine_audio" src="/musics/valantine.mp3"></audio>
+            </div>
+            <div class="old_baner_1">
+                <div class="img_and_text">
+                    <img src="/images/pictues/rahat_fatehali_khan.jpeg" alt="">
+                    <h2>Best of Raht Fateh Ali Khan</h2>
+                </div>
+                <div class="hover_btn">
+                    <button onclick="raheman_audio(this)">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                </div>
+                <audio id="raheman_audio" src="/musics/raheman.mp3"></audio>
+            </div>
+            <div class="old_baner_1">
+                <div class="img_and_text">
+                    <img src="/images/pictues/gym.jpeg" alt="">
+                    <h2>Gym Music Hindi</h2>
+                </div>
+                <div class="hover_btn">
+                    <button onclick="gym_audio(this)">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                </div>
+                <audio id="gym_audio" src="/musics/gym_audio.mp3"></audio>
+            </div>
+        </div>
+
+        <!-- your top mixes -->
+
+        <div class="mixes_part">
+            <div class="mixes_title">
+                <h1>Your top mixes</h1>
+                <h3>Show all</h3>
+            </div>
+            <div class="song_boxes">
+
+                <div class="song_box_1">
+                    <div class="">
+                        <img src="/images/pictues/veer_zara.jpeg" alt="">
+                    </div>
+                    <div class="">
+                        <h4>Madan Mohan Mix</h4>
+                    </div>
+                    <div class="">
+                        <h6>Shankar-Ehsaan-Loy Arman Malik...</h6>
+                    </div>
+                    
+                </div>
+
+                <div class="song_box_1">
+                    <div class="">
+                        <img src="/images/pictues/rahat.jpeg" alt="">
+                    </div>
+                    <div class="">
+                        <h4>Rahat Fateh Ali khan Mix</h4>
+                    </div>
+                    <div class="">
+                        <h6>Jatin-lalit, Shankar-Ehsaan-Loy... </h6>
+                    </div>
+                </div>
+
+                <div class="song_box_1">
+                    <div class="">
+                        <img src="/images/pictues/all_tops.jpeg" alt="">
+                    </div>
+                    <div class="" style="text-align: start;">
+                        <h4>All Out's Hindi Mix</h4>
+                    </div>
+                    <div class="">
+                        <h6>Relive the biggest tracks of the </h6>
+                    </div>
+                </div>
+
+                <div class="song_box_1">
+                    <div class="">
+                        <img src="/images/pictues/rocky.jpeg" alt="">
+                    </div>
+                    <div class="">
+                        <h4>Bollywood Dance Music</h4>
+                    </div>
+                    <div class="">
+                        <h6>Party-Ready, the biggest bollywood...</h6>
+                    </div>
+                </div>
+
+                <div class="song_box_1">
+                    <div class="">
+                        <img src="/images/pictues/shahid.jpg" alt="">
+                    </div>
+                    <div class="">
+                        <h4>Bollywood Central Hits</h4>
+                    </div>
+                    <div class="">
+                        <h6>Jab baje to Sidha Dil ke Central me lage</h6>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- top mixis copy -->
+
+        <div class="mixes_part">
+            <div class="mixes_title">
+                <h1>Recently Played</h1>
+                <h3>Show all</h3>
+            </div>
+            <div class="song_boxes">
+
+                <div class="song_box_1">
+                    <div class="">
+                        <img src="/images/pictues/arijit.jpeg" alt="">
+                    </div>
+                    <div class="">
+                        <h4>The Arijit Singh Collection</h4>
+                    </div>
+                    <div class="">
+                        <h6>Arijit Singh Top Hits ..</h6>
+                    </div>
+                </div>
+
+                <div class="song_box_1">
+                    <div class="">
+                        <img src="/images/pictues/chashni_bharat.jpeg   " alt="">
+                    </div>
+                    <div class="">
+                        <h4>Chashni(From"Bharat")</h4>
+                    </div>
+                    <div class="">
+                        <h6>Abhijeet Srivastava, Vishal-Shekhar </h6>
+                    </div>
+                </div>
+
+                <div class="song_box_1">
+                    <div class="">
+                        <img src="/images/pictues/shreya.jpeg" alt="">
+                    </div>
+                    <div class="">
+                        <h4>Best Of Shreya Ghoshal</h4>
+                    </div>
+                    <div class="">
+                        <h6>Top Hits Shreya Ghoshal</h6>
+                    </div>
+                </div>
+
+                <div class="song_box_1">
+                    <div class="">
+                        <img src="/images/pictues/kabira.jpeg" alt="">
+                    </div>
+                    <div class="" style="text-align: start;">
+                        <h4>Ranbir Kapoor Hits</h4>
+                    </div>
+                    <div class="">
+                        <h6>Yeh Jawaani Hai Deewani </h6>
+                    </div>
+                </div>
+
+                <div class="song_box_1">
+                    <div class="">
+                        <img src="/images/pictues/tainu_khabar_nahi.jpeg" alt="">
+                    </div>
+                    <div class="">
+                        <h4>Tainu Khabar Nahi("Munjya")</h4>
+                    </div>
+                    <div class="">
+                        <h6>Sachin-jigar, Arijit Singh</h6>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+
+        <!-- Daily Mix-1 -->
+        <div class="mixes_part">
+            <div class="mixes_title">
+                <h1>Your favorite artists</h1>
+                <h3>Show all</h3>
+            </div>
+            <div class="song_boxes">
+
+                <div class="song_box_1 round_song">
+                    <div class="">
+                        <img src="/images/pictues/neha.jpeg" alt="">
+                    </div>
+                    <div class="">
+                        <h4>Neha Kakkar</h4>
+                    </div>
+                    <div class="">
+                        <h6>Artist</h6>
+                    </div>
+                </div>
+
+                <div class="song_box_1 round_song">
+                    <div class="">
+                        <img src="/images/pictues/playlist_7.jpeg   " alt="">
+                    </div>
+                    <div class="">
+                        <h4>Udit Narayan</h4>
+                    </div>
+                    <div class="">
+                        <h6>Artist</h6>
+                    </div>
+                </div>
+
+                <div class="song_box_1 round_song">
+                    <div class="">
+                        <img src="/images/pictues/sunidhi.jpeg" alt="">
+                    </div>
+                    <div class="">
+                        <h4>Sunidhi Chauhan</h4>
+                    </div>
+                    <div class="">
+                        <h6>Artist</h6>
+                    </div>
+                </div>
+
+                <div class="song_box_1 round_song">
+                    <div class="">
+                        <img src="/images/pictues/playlist_3.jpeg" alt="">
+                    </div>
+                    <div class="" style="text-align: start;">
+                        <h4>Pritam</h4>
+                    </div>
+                    <div class="">
+                        <h6>Artist</h6>
+                    </div>
+                </div>
+
+                <div class="song_box_1 round_song">
+                    <div class="">
+                        <img src="/images/pictues/playlist_2.jpeg" alt="">
+                    </div>
+                    <div class="">
+                        <h4>Arijit Singh</h4>
+                    </div>
+                    <div class="">
+                        <h6>Artist</h6>
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+            <!--  -->
+        </div>
+
+    </section>
+
+</section>
+
+    
+    <!-- <div class="">
+        <div class="player">
+            <div class="imgbx">
+                <img src="https://i.postimg.cc/HsN3YR62/austin-neill-hg-O1w-FPXl3-I-unsplash.jpg">
+            </div>
+            <audio controls>
+                <source src="/musics/Valam - Made In China 128 Kbps.mp3">
+            </audio>
+        </div>
+     </div> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>

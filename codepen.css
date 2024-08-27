@@ -1,0 +1,112 @@
+.search-box{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+  }
+  .input-search{
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #232424;
+    padding-right: 40px;
+    color:#fff;
+  }
+  .input-search::placeholder{
+    color:rgba(255,255,255,.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  .btn-search{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color:#ffffff ;
+    background-color:transparent;
+    pointer-events: painted;  
+  }
+  .btn-search:focus ~ .input-search{
+    width: 250px;
+    border-radius: 0px;
+    background-color: #232424;
+    border-radius: 25px;
+    /* border-bottom:1px solid rgba(255,255,255,.5); */
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  .input-search:focus{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    /* border-bottom:1px solid rgba(255,255,255,.5); */
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+
+
+/* Custom scrollbar styles */
+.playlist_scrollbar::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+.playlist_scrollbar::-webkit-scrollbar-track {
+    height: 30px; /* Background of the scrollbar track */
+}
+
+.playlist_scrollbar::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    /* min-height: 30px; */
+}
+
+
+/* ---------------------------------- */
+
+/* Custom scrollbar styles */
+.hero_section::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.hero_section::-webkit-scrollbar-track {
+  height: 30px; /* Background of the scrollbar track */
+}
+
+.hero_section::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  /* min-height: 30px; */
+}
+
+
+/* music player css */
+.valam_Song .container {
+  display: flex;
+  align-items: center;
+}
+
+.valam_Song .btn {
+  background-color: #333;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.valam_Song .btn.pressed {
+  background-color: #555;
+}
+
+#seekBar {
+  width: 100%;
+}
+
+  
